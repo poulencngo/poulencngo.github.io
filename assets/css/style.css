@@ -38,6 +38,7 @@ html {
     border:none;
     padding: 10px 18px;
     margin-bottom: 15px;
+    -webkit-appearance: none;
 }
 .btn:hover {
     color:black;
@@ -423,4 +424,16 @@ html {
 #footer .copyright a {
     color: rgba(0, 0, 0, 0.6);
     
+}
+.contact-me {
+    padding: 11px 0px;
+}
+.contact-me a {
+    opacity: 0.8;
+}
+.contact-me a:hover {
+    opacity: 1.8;
+}
+.copyright a {
+    text-decoration: none;
 }
